@@ -19,7 +19,7 @@ class DataValues {
   static Uri facebookURL = Uri.parse('https://fb.me/swe.hamza.98/');
   static Uri instagramURL = Uri.parse('https://instagram.com/muhammad_hamza.998/');
   static Uri repoURL =
-  Uri.parse('https://github.com/AsadKhan261/asad_portfolio');
+  Uri.parse('https://github.com/100Hamza/muhammadhamza_portfolio');
 
   // Header
   static const String headerGreetings = 'Hello, World! I\'m';
