@@ -23,6 +23,7 @@ class MobileBioGraphy extends StatelessWidget {
             .text(),
         SizedBox(height: size.height * 0.05),
         Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Expanded(
               child: Column(
@@ -30,6 +31,7 @@ class MobileBioGraphy extends StatelessWidget {
                   children: PersonalDetails(context: context).personalDetails1()
               ),
             ),
+            SizedBox(width: size.width * 0.07),
             Expanded(
               child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,

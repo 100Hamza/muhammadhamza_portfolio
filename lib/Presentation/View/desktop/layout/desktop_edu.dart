@@ -7,14 +7,15 @@ import 'package:muhammad_hamza.dev/Utils/statics.dart';
 
 
 class DesktopEducation extends StatelessWidget {
-  const DesktopEducation({super.key});
+  double padding;
+  DesktopEducation({super.key , this.padding = 40});
 
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.sizeOf(context);
     return Padding(
       key: KeyHolders.educationKey,
-      padding: const EdgeInsets.all(40.0),
+      padding:  EdgeInsets.all(padding),
       child: Column(
         children: [
           PairCustomText(

@@ -14,7 +14,7 @@ class MobileEducation extends StatelessWidget {
     var size = MediaQuery.sizeOf(context);
     return Padding(
       key: KeyHolders.educationKey,
-      padding: const EdgeInsets.all(40.0),
+      padding: const EdgeInsets.all(30.0),
       child: Column(
         children: [
           PairCustomText(

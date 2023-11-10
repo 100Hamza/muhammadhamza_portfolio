@@ -8,14 +8,15 @@ import 'package:muhammad_hamza.dev/Utils/statics.dart';
 
 
 class DeskTopExperience extends StatelessWidget {
-  const DeskTopExperience({super.key});
+  double padding;
+  DeskTopExperience({super.key , this.padding =40});
 
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.sizeOf(context);
     return Padding(
       key: KeyHolders.experienceKey,
-      padding: const EdgeInsets.all(40.0),
+      padding: EdgeInsets.all(padding),
       child: Column(
         children: [
           PairCustomText(

@@ -8,7 +8,8 @@ import 'package:muhammad_hamza.dev/Utils/statics.dart';
 
 
 class DeskTopAboutMe extends StatefulWidget {
-  const DeskTopAboutMe({super.key});
+  double padding;
+  DeskTopAboutMe({super.key , this.padding = 40});
 
   @override
   State<DeskTopAboutMe> createState() => _DeskTopAboutMeState();
@@ -20,7 +21,7 @@ class _DeskTopAboutMeState extends State<DeskTopAboutMe> {
     var size = MediaQuery.sizeOf(context);
     return Padding(
       key: KeyHolders.aboutMeKey,
-      padding: const EdgeInsets.all(40.0),
+      padding: EdgeInsets.all(widget.padding),
       child: Column(
         children: [
           PairCustomText(

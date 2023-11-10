@@ -8,6 +8,6 @@ class MobileExperience extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.sizeOf(context);
-    return DeskTopExperience();
+    return DeskTopExperience(padding: 30.0,);
   }
 }

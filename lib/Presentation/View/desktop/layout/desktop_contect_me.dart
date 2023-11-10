@@ -9,14 +9,15 @@ import 'package:muhammad_hamza.dev/Utils/statics.dart';
 import '../../../Elements/pair_custom_text.dart';
 
 class DeskTopContactMe extends StatelessWidget {
-  const DeskTopContactMe({super.key});
+  double padding;
+  DeskTopContactMe({super.key , this.padding =40 });
 
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.sizeOf(context);
     return Padding(
       key: KeyHolders.contactMeKey,
-      padding: const EdgeInsets.all(40.0),
+      padding:  EdgeInsets.all(padding),
       child: Column(
         children: [
           PairCustomText(

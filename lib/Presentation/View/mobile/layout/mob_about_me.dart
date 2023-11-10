@@ -20,7 +20,7 @@ class _MobileAboutMeState extends State<MobileAboutMe> {
     var size = MediaQuery.sizeOf(context);
     return Padding(
       key: KeyHolders.aboutMeKey,
-      padding: const EdgeInsets.all(40.0),
+      padding: const EdgeInsets.all(30.0),
       child: Column(
         children: [
           PairCustomText(
@@ -38,7 +38,7 @@ class _MobileAboutMeState extends State<MobileAboutMe> {
           SizedBox(height: size.height * 0.04,),
           Column(children: [
             CustomCard(imageName: 'student', title: DataValues.aboutMeStudentTitle, description: DataValues.aboutMeStudentDescription,),
-            SizedBox(height: size.width * 0.03,),
+            SizedBox(height: size.height * 0.03,),
             CustomCard(imageName: 'developer', title: DataValues.aboutMeDeveloperTitle, description: DataValues.aboutMeDeveloperDescription,),
           ],)
         ],

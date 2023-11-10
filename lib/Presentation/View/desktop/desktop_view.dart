@@ -14,13 +14,13 @@ class DesktopView extends StatelessWidget {
     return ListView(
       shrinkWrap: true,
       physics: const ClampingScrollPhysics(),
-      children: const [
-        DesktopHeader(),
+      children: [
+        const DesktopHeader(),
         DeskTopAboutMe(),
         DesktopEducation(),
         DeskTopExperience(),
         DeskTopContactMe(),
-        DesktopFooter()
+        const DesktopFooter()
       ],
     );
   }

@@ -7,6 +7,6 @@ class MobileContactMe extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return DeskTopContactMe();
+    return DeskTopContactMe(padding: 30.0,);
   }
 }

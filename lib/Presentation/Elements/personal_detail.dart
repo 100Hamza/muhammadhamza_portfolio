@@ -17,6 +17,7 @@ class PersonalDetails{
         description: DataValues.aboutMeLocationDescription,
         descriptionStyle: AppThemeData.darkTheme.textTheme.labelLarge,
         titleStyle: AppThemeData.darkTheme.textTheme.titleMedium,
+          textAlign: TextAlign.start
       )
           .text(),
       SizedBox(height: size.height * 0.04),
@@ -27,6 +28,7 @@ class PersonalDetails{
         description: DataValues.aboutMeWorkDomainDescription,
         descriptionStyle: AppThemeData.darkTheme.textTheme.labelLarge,
         titleStyle: AppThemeData.darkTheme.textTheme.titleMedium,
+          textAlign: TextAlign.start
       )
           .text(),
       SizedBox(height: size.height * 0.04),
@@ -65,6 +67,7 @@ class PersonalDetails{
         description: DataValues.aboutMeFullNameDescription,
         descriptionStyle: AppThemeData.darkTheme.textTheme.labelLarge,
         titleStyle: AppThemeData.darkTheme.textTheme.titleMedium,
+          textAlign: TextAlign.start
       )
           .text(),
       SizedBox(height: size.height * 0.04),
@@ -75,6 +78,7 @@ class PersonalDetails{
         description: DataValues.aboutMeGenderDescription,
         descriptionStyle: AppThemeData.darkTheme.textTheme.labelLarge,
         titleStyle: AppThemeData.darkTheme.textTheme.titleMedium,
+          textAlign: TextAlign.start
       )
           .text(),
       SizedBox(height: size.height * 0.04),
@@ -85,6 +89,7 @@ class PersonalDetails{
         description: DataValues.aboutMeDobDescription,
         descriptionStyle: AppThemeData.darkTheme.textTheme.labelLarge,
         titleStyle: AppThemeData.darkTheme.textTheme.titleMedium,
+          textAlign: TextAlign.start
       )
           .text(),
       SizedBox(height: size.height * 0.04),
@@ -106,6 +111,7 @@ class PersonalDetails{
         description: DataValues.aboutMeNationalityDescription,
         descriptionStyle: AppThemeData.darkTheme.textTheme.labelLarge,
         titleStyle: AppThemeData.darkTheme.textTheme.titleMedium,
+          textAlign: TextAlign.start
       )
           .text(),
       SizedBox(height: size.height * 0.04),

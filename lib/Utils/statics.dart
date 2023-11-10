@@ -144,7 +144,7 @@ class DataValues {
 
   // Footer
   static const String copyright =
-  "Copyright ©2023 Muhammad Hamza. All Rights Reserved.";
+  "Copyright ©2023 M. Hamza. All Rights Reserved.";
 
   static const String builtWith = "Built with Flutter";
   }
